@@ -1,8 +1,8 @@
 package com.pluralsight.vehicles;
 
-/**
- * The VehicleApp class serves as the main application to demonstrate vehicle functionality.
- */
+
+ //The VehicleApp class serves as the main application to demonstrate vehicle functionality.
+
 public class VehicleApp {
     public static void main(String[] args) {
         // Creating instances of different vehicle types with details
@@ -18,7 +18,7 @@ public class VehicleApp {
         HoverCraft myHoverCraft1 = new HoverCraft("AirFish", "500", 100, 150000.00);
         HoverCraft myHoverCraft2 = new HoverCraft("Gibbs", "Quadski", 50, 70000.00);
 
-        // Displaying vehicle information and performing actions
+        // Displaying vehicle information and performing different actions based on vehicle
         System.out.println("Moped 1 Info:");
         myMoped1.displayInfo();
         myMoped1.ride();

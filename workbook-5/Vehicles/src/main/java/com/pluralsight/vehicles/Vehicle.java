@@ -3,10 +3,10 @@ package com.pluralsight.vehicles;
 public class Vehicle {
 
 
-    String make;
-    String model;
-    int mileage;
-    double price;
+   protected String make;
+   protected String model;
+   protected int mileage;
+    protected double price;
 
 
     public Vehicle(String make, String model, int mileage, double price) {
