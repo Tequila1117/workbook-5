@@ -26,4 +26,9 @@ public class Asset {
     public double getOriginalCost() {
         return originalCost;
     }
+
+    // Method to get the value of the asset (default to original cost)
+    public double getValue() {
+        return originalCost;
+    }
 }
