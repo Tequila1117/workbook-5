@@ -9,15 +9,15 @@ public class AssetManager {
         ArrayList<Asset> assets = new ArrayList<>();
 
         // Add House assets
-        assets.add(new House("My seasonal home", "2022-06-15", 300000,
+        assets.add(new House("The seasonal home", "2022-06-15", 300000,
                 "175 Heart Rd", 1, 1500, 5000));
-        assets.add(new House("Kela's house", "2021-08-20", 250000,
+        assets.add(new House("The house", "2021-08-20", 250000,
                 "456 Maple Ave", 2, 2000, 6000));
 
         // Vehicle assets
-        assets.add(new Vehicle("My car", "2020-03-10", 20000,
+        assets.add(new Vehicle("The car", "2020-03-10", 20000,
                 "Honda Civic", 2019, 25000));
-        assets.add(new Vehicle("Kela's  truck", "2018-02-29", 30000,
+        assets.add(new Vehicle("The  truck", "2018-02-29", 30000,
                 "Ford F-150", 2017, 80000));
 
         // Loop through the assets and display their details

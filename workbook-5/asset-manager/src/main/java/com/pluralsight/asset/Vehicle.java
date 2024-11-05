@@ -41,7 +41,7 @@ public class Vehicle extends Asset {
         int age = 2024 - year; // current year to year
 
 
-        // Change value based on age
+        // Change value based on age of
         if (age <= 3) {
             value *= (1 - 0.03 * age); // 3% reduction per year
         } else if (age <= 6) {
